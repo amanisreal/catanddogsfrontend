@@ -1,0 +1,42 @@
+.mdmCardContainer{
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 3.5%;
+    margin-top: 20px;
+}
+
+.primeVideContainer{
+    flex: 1;
+    position: relative;
+    margin-top: 20px;
+}
+
+.primeVideoIMG{
+    width: 96%;
+    height: 100%;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(0, 0,0,0.2);
+}
+
+.primeVideoTitle1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.primeVideoTitle3{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+
+.smallcardContainer{
+    flex: 01.051;
+    display: flex;
+}
+
+.smallcard{
+    width: 48%;
+    margin-left: 10px;
+    margin-top: -15px;
+}

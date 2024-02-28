@@ -1,0 +1,24 @@
+.cardContainer{
+    width: 90%;
+    background-color: white;
+    margin-top: 12%;
+}
+
+.cardTitle{
+    margin-top: 9px;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+.imagesOfCardContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+     text-align: center;
+     justify-self: center;
+}
+
+img{
+    width: 110px;
+    height: 110px;
+    
+}

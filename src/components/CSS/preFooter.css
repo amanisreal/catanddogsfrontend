@@ -1,0 +1,26 @@
+.preFooterContainer{
+    display: flex;
+    padding-top: 20px;
+    background-color: #232F3E;
+    color: white;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.commonUlPreFooter{
+    list-style: none;
+    font-size: 90%;
+    margin-top: 20px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+
+
+.commonLiOfUlPreFooter{
+    margin-top: 10px;
+    cursor: pointer;
+}
+

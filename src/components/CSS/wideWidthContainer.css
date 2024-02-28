@@ -1,0 +1,55 @@
+.wideWidthCardContainer{
+    height: 45vh;
+    width: 95vw;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    scrollbar-width: none;
+    margin-bottom: 10px;
+}
+
+
+.buttonOfWideWidthCard{
+    height: 10vh;
+    width: 3vw;
+    margin-top: 110px;
+    border-radius: 20px;
+}
+
+.buttonOfWideWidthCard:hover{
+    background-color: rgb(109, 109, 109);
+    color: white;
+}
+
+.onlyForButtons{
+    display: flex;
+}
+
+.containerForCardOfWideCardContainer{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 3px;
+    margin-left: 5px;
+}
+
+.slider{
+    width: 88vw;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin-top: -15px;
+}
+
+.slider::-webkit-scrollbar{
+    display: none;
+
+}
+
+.slider-card{
+    width: 17vw;
+    height: 37vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
